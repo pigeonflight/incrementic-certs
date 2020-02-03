@@ -18,7 +18,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "certificate-page"}
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Completion Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
